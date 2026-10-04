@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portofolio - Muhammad Fawaz Rangga Putrajaya</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=Space+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="#home">fawaz.dev</a>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HOME -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="status">● Lagi semangat belajar ngoding</p>
+      <h1>Mahasiswa<br><span>Informatika</span></h1>
+      <p class="desc">Halo, aku Fawaz. Lagi belajar bikin website pakai HTML dan CSS. Ini portofolio buat tugas kuliah, masih proses tapi terus aku rapikan.</p>
+      <div class="chips"><span>HTML</span><span>CSS</span><span>Git</span></div>
+      <p class="hint">&gt; geser ke bawah buat lihat karyaku</p>
+    </div>
+    <div class="badge-wrap">
+      <div class="lanyard"></div>
+      <div class="badge">
+        <img src="img/profile.jpg" alt="Foto Muhammad Fawaz Rangga Putrajaya">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div>
+      <p class="label">Tentang saya</p>
+      <h2>Muhammad Fawaz Rangga Putrajaya</h2>
+      <p class="desc">Mahasiswa Informatika semester 5. Hobiku fotografi dan suka mengeksplor hal baru. Pernah ikut jadi tim dokumentasi di beberapa acara, dan sekarang lagi belajar bikin website.</p>
+      <div class="btns">
+        <a class="btn solid" href="#cv">Lihat CV</a>
+        <a class="btn" href="#portfolio">Lihat Proyek</a>
+      </div>
+      <div class="stats">
+        <div><b>1</b>Proyek</div>
+        <div><b>1</b>Sertifikat</div>
+        <div><b>0</b>Tugas selesai</div>
+      </div>
+    </div>
+    <div class="avatar"><img src="img/profile.jpg" alt="Foto Muhammad Fawaz Rangga Putrajaya"></div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="portfolio">
+    <h2 class="center">Portfolio Showcase</h2>
+    <p class="center desc">Proyek, sertifikat, kursus, dan teknologi yang pernah aku pakai.</p>
+
+    <input type="radio" name="tab" id="t1" checked>
+    <input type="radio" name="tab" id="t2">
+    <input type="radio" name="tab" id="t3">
+    <input type="radio" name="tab" id="t4">
+    <div class="tabs">
+      <label for="t1">Projects</label>
+      <label for="t2">Certificates</label>
+      <label for="t3">Pengalaman Kursus</label>
+      <label for="t4">Tech Stack</label>
+    </div>
+
+    <div class="panel p1">
+      <a class="card" href="files/Portopolio_photograph.pdf" target="_blank" rel="noopener">
+        <img class="shot" src="img/portofolio-fotografi.jpg" alt="Cuplikan portofolio fotografi">
+        <h3>Portofolio Fotografi</h3>
+        <p>Kumpulan foto dokumentasi acara sekolah dan cosplay event. Klik untuk membuka PDF-nya.</p>
+      </a>
+    </div>
+
+    <div class="panel p2">
+      <a class="card" href="files/GCC_Muhammad_Fawaz_Rangga_Putrajaya.pdf" target="_blank" rel="noopener">
+        <img class="shot" src="img/sertifikat-gcc.jpg" alt="Sertifikat Wakil Ketua Ekskul GCC">
+        <h3>Wakil Ketua Ekskul GCC</h3>
+        <p>Ghotoen Computer Club, SMA Negeri 5 Jakarta, periode 2022-2023.</p>
+      </a>
+    </div>
+
+    <div class="panel p3">
+      <div class="course">
+        <h3>LePKom Universitas Gunadarma</h3>
+        <p class="desc">Kursus yang aku ikuti di LePKom. Sertifikatnya belum ada, jadi untuk sementara aku tulis di sini.</p>
+        <ul>
+          <li><b>Fundamental DBMS Desktop</b><span>Semester 1, periode PTA 2024-2025</span></li>
+          <li><b>Desktop Programming for Beginner</b><span>Semester 2, periode ATA 2024-2025</span></li>
+          <li><b>Database for Beginner</b><span>Semester 3, periode PTA 2025-2026</span></li>
+          <li><b>Introduction to Java Language Programming</b><span>Semester 4, periode ATA 2025-2026</span></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="panel p4">
+      <div class="tech">HTML</div><div class="tech">CSS</div><div class="tech">Python</div><div class="tech">Git</div><div class="tech">VS Code</div><div class="tech">Figma</div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <form class="box" action="#" onsubmit="return false">
+      <h2>Hubungi Saya</h2>
+      <p class="desc">Kirim pesan lewat form ini, atau langsung hubungi lewat kontak di bawah.</p>
+      <input type="text" placeholder="Nama kamu">
+      <input type="email" placeholder="Email kamu">
+      <textarea rows="4" placeholder="Pesan kamu"></textarea>
+      <button class="btn solid" type="submit">Kirim Pesan</button>
+      <p class="label">Kontak langsung</p>
+      <div class="info">
+        <a href="mailto:mfawaz.ranggaug@gmail.com"><small>Email</small>mfawaz.ranggaug@gmail.com</a>
+        <a href="tel:+6287771353146"><small>Telepon</small>+62 877-7135-3146</a>
+        <a href="https://www.instagram.com/fawaz_prtjy/" target="_blank" rel="noopener"><small>Instagram</small>@fawaz_prtjy</a>
+        <a href="https://www.linkedin.com/in/muhammad-fawaz-rangga-putrajaya-0817b3389/" target="_blank" rel="noopener"><small>LinkedIn</small>Muhammad Fawaz Rangga Putrajaya</a>
+      </div>
+    </form>
+
+    <div class="box">
+      <h2>Komentar</h2>
+      <p class="desc">Tinggalkan kesan atau saranmu di sini.</p>
+      <input type="text" placeholder="Nama kamu">
+      <textarea rows="3" placeholder="Komentar kamu"></textarea>
+      <button class="btn solid" type="button">Kirim Komentar</button>
+      <div class="comment pinned"><i>F</i><div><b>Muhammad Fawaz</b> <small>disematkan</small><p>Terima kasih sudah mampir!</p></div></div>
+    </div>
+  </section>
+</main>
+
+<!-- PREVIEW CV: dibuka lewat tombol "Lihat CV", tanpa JavaScript -->
+<div id="cv" class="modal">
+  <a class="modal-bg" href="#about" aria-label="Tutup preview CV"></a>
+  <div class="modal-box" role="dialog" aria-label="Preview CV">
+    <div class="modal-bar">
+      <b>CV Muhammad Fawaz Rangga Putrajaya</b>
+      <div>
+        <a class="btn solid" href="files/Cv_Muhammad_Fawaz_Rangga_Putrajaya.pdf" download>Unduh CV</a>
+        <a class="btn" href="#about">Tutup</a>
+      </div>
+    </div>
+    <div class="modal-body"><img src="img/cv.jpg" alt="Preview CV Muhammad Fawaz Rangga Putrajaya"></div>
+  </div>
+</div>
+
+<footer>© 2026 Muhammad Fawaz Rangga Putrajaya. Dibuat dengan HTML dan CSS.</footer>
+</body>
+</html>
