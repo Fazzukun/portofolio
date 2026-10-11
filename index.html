@@ -1,156 +1,32 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portofolio - Muhammad Fawaz Rangga Putrajaya</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=Space+Mono&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-<header class="nav">
-  <a class="logo" href="#home">fawaz.dev</a>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#portfolio">Portfolio</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
-
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Muhammad Fawaz Rangga Putrajaya | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&family=Space+Mono&family=Syne:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head>
+<body class="bg-grid">
+<header class="nav"><b>fawaz.dev</b><nav><a href="#home">Home</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#contact">Contact</a></nav></header>
 <main>
-  <!-- HOME -->
-  <section id="home" class="hero">
-    <div class="hero-text">
-      <p class="status">● Lagi semangat belajar ngoding</p>
-      <h1>Mahasiswa<br><span>Informatika</span></h1>
-      <p class="desc">Halo, aku Fawaz. Lagi belajar bikin website pakai HTML dan CSS. Ini portofolio buat tugas kuliah, masih proses tapi terus aku rapikan.</p>
-      <div class="chips"><span>HTML</span><span>CSS</span><span>Git</span></div>
-      <p class="hint">&gt; geser ke bawah buat lihat karyaku</p>
-    </div>
-    <div class="badge-wrap">
-      <div class="lanyard"></div>
-      <div class="badge">
-        <img src="img/profile.jpg" alt="Foto Muhammad Fawaz Rangga Putrajaya">
-      </div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="about">
-    <div>
-      <p class="label">Tentang saya</p>
-      <h2>Muhammad Fawaz Rangga Putrajaya</h2>
-      <p class="desc">Mahasiswa Informatika semester 5. Hobiku fotografi dan suka mengeksplor hal baru. Pernah ikut jadi tim dokumentasi di beberapa acara, dan sekarang lagi belajar bikin website.</p>
-      <div class="btns">
-        <a class="btn solid" href="#cv">Lihat CV</a>
-        <a class="btn" href="#portfolio">Lihat Proyek</a>
-      </div>
-      <div class="stats">
-        <div><b>1</b>Proyek</div>
-        <div><b>1</b>Sertifikat</div>
-        <div><b>0</b>Tugas selesai</div>
-      </div>
-    </div>
-    <div class="avatar"><img src="img/profile.jpg" alt="Foto Muhammad Fawaz Rangga Putrajaya"></div>
-  </section>
-
-  <!-- PORTFOLIO -->
-  <section id="portfolio" class="portfolio">
-    <h2 class="center">Portfolio Showcase</h2>
-    <p class="center desc">Proyek, sertifikat, kursus, dan teknologi yang pernah aku pakai.</p>
-
-    <input type="radio" name="tab" id="t1" checked>
-    <input type="radio" name="tab" id="t2">
-    <input type="radio" name="tab" id="t3">
-    <input type="radio" name="tab" id="t4">
-    <div class="tabs">
-      <label for="t1">Projects</label>
-      <label for="t2">Certificates</label>
-      <label for="t3">Pengalaman Kursus</label>
-      <label for="t4">Tech Stack</label>
-    </div>
-
-    <div class="panel p1">
-      <a class="card" href="files/Portopolio_photograph.pdf" target="_blank" rel="noopener">
-        <img class="shot" src="img/portofolio-fotografi.jpg" alt="Cuplikan portofolio fotografi">
-        <h3>Portofolio Fotografi</h3>
-        <p>Kumpulan foto dokumentasi acara sekolah dan cosplay event. Klik untuk membuka PDF-nya.</p>
-      </a>
-    </div>
-
-    <div class="panel p2">
-      <a class="card" href="files/GCC_Muhammad_Fawaz_Rangga_Putrajaya.pdf" target="_blank" rel="noopener">
-        <img class="shot" src="img/sertifikat-gcc.jpg" alt="Sertifikat Wakil Ketua Ekskul GCC">
-        <h3>Wakil Ketua Ekskul GCC</h3>
-        <p>Ghotoen Computer Club, SMA Negeri 5 Jakarta, periode 2022-2023.</p>
-      </a>
-    </div>
-
-    <div class="panel p3">
-      <div class="course">
-        <h3>LePKom Universitas Gunadarma</h3>
-        <p class="desc">Kursus yang aku ikuti di LePKom. Sertifikatnya belum ada, jadi untuk sementara aku tulis di sini.</p>
-        <ul>
-          <li><b>Fundamental DBMS Desktop</b><span>Semester 1, periode PTA 2024-2025</span></li>
-          <li><b>Desktop Programming for Beginner</b><span>Semester 2, periode ATA 2024-2025</span></li>
-          <li><b>Database for Beginner</b><span>Semester 3, periode PTA 2025-2026</span></li>
-          <li><b>Introduction to Java Language Programming</b><span>Semester 4, periode ATA 2025-2026</span></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="panel p4">
-      <div class="tech">HTML</div><div class="tech">CSS</div><div class="tech">Python</div><div class="tech">Git</div><div class="tech">VS Code</div><div class="tech">Figma</div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="contact">
-    <form class="box" action="#" onsubmit="return false">
-      <h2>Hubungi Saya</h2>
-      <p class="desc">Kirim pesan lewat form ini, atau langsung hubungi lewat kontak di bawah.</p>
-      <input type="text" placeholder="Nama kamu">
-      <input type="email" placeholder="Email kamu">
-      <textarea rows="4" placeholder="Pesan kamu"></textarea>
-      <button class="btn solid" type="submit">Kirim Pesan</button>
-      <p class="label">Kontak langsung</p>
-      <div class="info">
-        <a href="mailto:mfawaz.ranggaug@gmail.com"><small>Email</small>mfawaz.ranggaug@gmail.com</a>
-        <a href="tel:+6287771353146"><small>Telepon</small>+62 877-7135-3146</a>
-        <a href="https://www.instagram.com/fawaz_prtjy/" target="_blank" rel="noopener"><small>Instagram</small>@fawaz_prtjy</a>
-        <a href="https://www.linkedin.com/in/muhammad-fawaz-rangga-putrajaya-0817b3389/" target="_blank" rel="noopener"><small>LinkedIn</small>Muhammad Fawaz Rangga Putrajaya</a>
-      </div>
-    </form>
-
-    <div class="box">
-      <h2>Komentar</h2>
-      <p class="desc">Tinggalkan kesan atau saranmu di sini.</p>
-      <input type="text" placeholder="Nama kamu">
-      <textarea rows="3" placeholder="Komentar kamu"></textarea>
-      <button class="btn solid" type="button">Kirim Komentar</button>
-      <div class="comment pinned"><i>F</i><div><b>Muhammad Fawaz</b> <small>disematkan</small><p>Terima kasih sudah mampir!</p></div></div>
-    </div>
-  </section>
+<section id="home" class="hero"><div>
+<p class="k">Informatics Student, Gunadarma University</p>
+<h1>Building for the web.<br>Framing the moment.<span>Growing with every project.</span></h1>
+<p class="d">Mahasiswa Informatika semester 5 dengan ketertarikan pada teknologi dan fotografi. Saya terus belajar membangun website yang fungsional dan nyaman dipakai, sambil mengasah mata visual lewat fotografi.</p></div>
+<div class="lan"><div class="strap"></div><label class="flip"><input type="checkbox" aria-label="Balik kartu ID"><div class="fc"><div><img src="img/profile.jpg" alt="Foto Muhammad Fawaz Rangga Putrajaya"></div><div class="bk"><b>Muhammad Fawaz Rangga Putrajaya</b><span>Informatics, Gunadarma University</span><a href="mailto:mfawaz.ranggaug@gmail.com">mfawaz.ranggaug<wbr>@gmail.com</a><a href="https://www.linkedin.com/in/muhammad-fawaz-rangga-putrajaya-0817b3389/" target="_blank" rel="noopener">LinkedIn</a></div></div></label><p class="tip">Tap to flip</p></div></section>
+<section id="about" class="about"><div>
+<p class="k">Tentang saya</p><h2>Muhammad Fawaz Rangga Putrajaya</h2>
+<p class="d">Mahasiswa Informatika semester 5 di Universitas Gunadarma dengan rasa ingin tahu yang luas terhadap teknologi. Di luar kuliah, saya menekuni fotografi dan menggambar, serta belajar paleontologi dan astronomi secara otodidak.</p>
+<div class="chips"><span>Informatics</span><span>Photography</span></div>
+<h3>Education</h3><div class="tl"><div><small>2024 – Sekarang</small><b>Universitas Gunadarma</b><span>Sarjana Informatika (Semester 5)</span></div><div><small>2021 – 2024</small><b>SMA Negeri 5 Jakarta</b><span>Ilmu Pengetahuan Alam (IPA)</span></div></div></div>
+<div class="av"><img src="img/profile.jpg" alt="Foto Muhammad Fawaz Rangga Putrajaya"></div></section>
+<section id="portfolio" class="pf"><p class="k" style="text-align:center">Portfolio</p><h2 style="text-align:center">Portfolio Showcase</h2><p class="mu" style="text-align:center">Proyek, sertifikat, pengalaman, dan teknologi yang saya gunakan.</p>
+<input type="radio" name="t" id="t1" checked><input type="radio" name="t" id="t2"><input type="radio" name="t" id="t3"><input type="radio" name="t" id="t4"><input type="radio" name="t" id="t5">
+<div class="tabs"><label for="t1">Projects</label><label for="t2">Certificates</label><label for="t3">Experience</label><label for="t4">Tech Stack</label><label for="t5">Resume</label></div>
+<div class="pn p1"><div class="cards"><a class="cd" href="files/Portopolio_photograph.pdf" target="_blank" rel="noopener"><img class="sh" src="img/portofolio-fotografi.jpg" alt="Cuplikan portofolio fotografi"><h3>Portofolio Fotografi</h3><p>Kumpulan foto dokumentasi acara sekolah dan cosplay event.</p><span class="go">View PDF ↗</span></a></div></div>
+<div class="pn p2"><div class="cards"><a class="cd" href="files/GCC_Muhammad_Fawaz_Rangga_Putrajaya.pdf" target="_blank" rel="noopener"><img class="sh" src="img/sertifikat-gcc.jpg" alt="Sertifikat Wakil Ketua Ekskul GCC"><h3>Wakil Ketua Ekskul GCC</h3><p>Ghotoen Computer Club, SMA Negeri 5 Jakarta, periode 2022 – 2023.</p><span class="go">View PDF ↗</span></a></div></div>
+<div class="pn p3"><div class="ex"><h4>Organizations and volunteering</h4><div class="cd"><div class="top"><span class="tag">Volunteer</span><span>2026</span></div><h3>Volunteer, Media Kreatif PKKMB FTI</h3><p class="og">Universitas Gunadarma</p><ul><li>Membuat dan mengedit konten untuk kebutuhan media kreatif menggunakan CapCut, dikerjakan pada H-2 sebelum PKKMB.</li><li>Bertugas sebagai fotografer selama acara utama PKKMB FTI 2026 berlangsung, mengabadikan jalannya rangkaian acara.</li></ul></div><div class="cd"><div class="top"><span class="tag">Committee</span><span>2025</span></div><h3>Panitia CGTG (Campus Goes To Ghotoen), Divisi Dokumentasi</h3><p class="og">SMA Negeri 5 Jakarta</p><ul><li>Terlibat dalam acara pengarahan dari alumni angkatan 2024 kepada adik kelas tentang persiapan memasuki dunia perkuliahan.</li><li>Mendokumentasikan jalannya acara melalui foto untuk kebutuhan dokumentasi acara.</li><li>Berkoordinasi dengan panitia dan divisi lain selama acara berlangsung.</li></ul></div><div class="cd"><div class="top"><span class="tag">Committee</span><span>2023</span></div><h3>Tim Dokumentasi SMALIC, Divisi Dokumentasi</h3><p class="og">SMA Negeri 5 Jakarta</p><ul><li>Mendokumentasikan rangkaian kegiatan selama acara berlangsung.</li><li>Mengambil foto untuk kebutuhan dokumentasi acara dan membantu menyusun hasil dokumentasi kegiatan.</li><li>Berkoordinasi dengan panitia dan divisi lain.</li></ul></div><h4>Courses</h4><div class="cd"><h3>LePKom Universitas Gunadarma</h3><p class="og">Kursus yang saya ikuti di LePKom. Sertifikatnya belum ada, jadi untuk sementara ditulis di sini.</p><ul><li>Fundamental DBMS Desktop, Semester 1, periode PTA 2024-2025</li><li>Desktop Programming for Beginner, Semester 2, periode ATA 2024-2025</li><li>Database for Beginner, Semester 3, periode PTA 2025-2026</li><li>Introduction to Java Language Programming, Semester 4, periode ATA 2025-2026</li></ul></div></div></div>
+<div class="pn p4"><div class="tech"><h4>Development</h4><div class="tg"><div class="tile"><svg viewBox="0 0 384 512" fill="#E34F26" aria-hidden="true"><path d="m0 32 34.9 395.8L191.5 480l157.6-52.2L384 32zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1z"/></svg>HTML</div><div class="tile"><svg viewBox="0 0 512 512" fill="#1572B6" aria-hidden="true"><path d="m480 32-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82z"/></svg>CSS</div><div class="tile"><svg viewBox="0 0 448 512" fill="#4B8BBE" aria-hidden="true"><path d="M439.8 200.5c-7.7-30.9-22.3-54.2-53.4-54.2h-40.1v47.4c0 36.8-31.2 67.8-66.8 67.8H172.7c-29.2 0-53.4 25-53.4 54.3v101.8c0 29 25.2 46 53.4 54.3 33.8 9.9 66.3 11.7 106.8 0 26.9-7.8 53.4-23.5 53.4-54.3v-40.7H226.2v-13.6h160.2c31.1 0 42.6-21.7 53.4-54.2 11.2-33.5 10.7-65.7 0-108.6M286.2 444.7a20.4 20.4 0 1 1 0-40.7 20.4 20.4 0 1 1 0 40.7M167.8 248.1h106.8c29.7 0 53.4-24.5 53.4-54.3V91.9c0-29-24.4-50.7-53.4-55.6-35.8-5.9-74.7-5.6-106.8.1-45.2 8-53.4 24.7-53.4 55.6v40.7h106.9v13.6h-147c-31.1 0-58.3 18.7-66.8 54.2-9.8 40.7-10.2 66.1 0 108.6 7.6 31.6 25.7 54.2 56.8 54.2H101v-48.8c0-35.3 30.5-66.4 66.8-66.4m-6.6-183.4a20.4 20.4 0 1 1 0 40.8 20.4 20.4 0 1 1 0-40.8"/></svg>Python</div><div class="tile"><svg viewBox="0 0 384 512" fill="#ED8B00" aria-hidden="true"><path d="M277.8 312.9c9.8-6.7 23.4-12.5 23.4-12.5s-38.7 7-77.2 10.2c-47.1 3.9-97.7 4.7-123.1 1.3-60.1-8 33-30.1 33-30.1s-36.1-2.4-80.6 19c-52.5 25.4 130 37 224.5 12.1m-85.4-32.1c-19-42.7-83.1-80.2 0-145.8C296.1 53.2 242.9 0 242.9 0c21.5 84.5-75.6 110.1-110.7 162.6-23.9 35.9 11.7 74.4 60.2 118.2M307 104.6c.1 0-175.2 43.8-91.5 140.2 24.7 28.4-6.5 54-6.5 54s62.7-32.4 33.9-72.9c-26.9-37.8-47.5-56.6 64.1-121.3m-6.1 270.5c-.5 1-1.2 1.8-2 2.6 128.3-33.7 81.1-118.9 19.8-97.3-3.3 1.2-6.2 3.4-8.2 6.3 3.6-1.3 7.3-2.3 11-3 31-6.5 75.5 41.5-20.6 91.4m47.1 62.3s14.5 11.9-15.9 21.2c-57.9 17.5-240.8 22.8-291.6.7-18.3-7.9 16-19 26.8-21.3 11.2-2.4 17.7-2 17.7-2-20.3-14.3-131.3 28.1-56.4 40.2C232.8 509.4 401 461.3 348 437.4M124.5 396c-78.7 22 47.9 67.4 148.1 24.5q-14.7-5.7-28.2-13.8c-44.7 8.5-65.4 9.1-106 4.5-33.5-3.8-13.9-15.2-13.9-15.2m179.8 97.2C225.6 508 128.5 506.3 71 496.8c0-.1 11.8 9.7 72.4 13.6 92.2 5.9 233.8-3.3 237.1-46.9 0 0-6.4 16.5-76.2 29.7M260.7 353c-59.2 11.4-93.5 11.1-136.8 6.6-33.5-3.5-11.6-19.7-11.6-19.7-86.8 28.8 48.2 61.4 169.5 25.9-7.8-2.8-15-7.1-21.1-12.8"/></svg>Java</div><div class="tile"><svg viewBox="0 0 512 512" fill="#FFFFFF" aria-hidden="true"><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>GitHub</div><div class="tile"><svg viewBox="0 0 24 24" fill="#1F8FE0" aria-hidden="true"><path d="M17 16.47V7.39l-6 4.54M2.22 9.19a.86.86 0 0 1-.02-1.15l1.2-1.11c.2-.18.69-.26 1.05 0l3.42 2.61 7.93-7.25c.32-.32.87-.45 1.5-.12l4 1.91c.36.21.7.54.7 1.15v13.5c0 .4-.29.83-.6 1l-4.4 2.1c-.32.13-.92.01-1.13-.2l-8.02-7.3-3.4 2.6c-.38.26-.85.19-1.05 0l-1.2-1.1c-.32-.33-.28-.87.05-1.2l3-2.7"/></svg>VS Code</div></div><h4>Design and creative</h4><div class="tg"><div class="tile"><svg viewBox="0 0 38 57" aria-hidden="true"><path d="M19 28.5a9.5 9.5 0 1 1 19 0 9.5 9.5 0 0 1-19 0z" fill="#1abcfe"/><path d="M0 47.5A9.5 9.5 0 0 1 9.5 38H19v9.5a9.5 9.5 0 1 1-19 0z" fill="#0acf83"/><path d="M19 0v19h9.5a9.5 9.5 0 1 0 0-19H19z" fill="#ff7262"/><path d="M0 9.5A9.5 9.5 0 0 0 9.5 19H19V0H9.5A9.5 9.5 0 0 0 0 9.5z" fill="#f24e1e"/><path d="M0 28.5A9.5 9.5 0 0 0 9.5 38H19V19H9.5A9.5 9.5 0 0 0 0 28.5z" fill="#a259ff"/></svg>Figma</div><div class="tile"><img src="img/canva.png" alt="">Canva</div><div class="tile"><span class="ps">Ps</span>Photoshop</div><div class="tile"><svg viewBox="0 0 100 78.5" fill="#fff" fill-rule="evenodd" aria-hidden="true"><path d="M3.5 5.0 1.5 10.0 1.5 24.8 3.5 27.0 25.2 38.2 23.2 41.0 3.2 51.0 2.0 52.5 1.5 67.8 3.2 72.5 5.2 74.5 10.2 76.2 68.8 76.5 76.0 74.5 78.5 71.8 80.5 67.0 85.5 69.0 95.5 74.8 97.2 74.5 97.8 63.0 96.8 60.0 59.5 41.0 57.5 38.8 58.0 37.5 96.5 17.5 97.8 15.2 97.8 4.8 97.0 3.2 94.0 3.8 81.5 10.5 79.8 9.8 79.0 6.8 76.2 3.5 73.5 2.0 69.8 1.2 11.5 1.2 8.2 1.8ZM13.8 60.8 41.5 46.5 68.2 60.0 68.8 61.2 67.2 62.2 15.2 62.2ZM13.8 15.8 67.8 15.2 68.5 16.2 66.2 18.8 43.2 30.5 40.0 30.8 15.8 18.5Z"/></svg>CapCut</div></div></div></div>
+<div class="pn p5"><div class="rs"><div class="box"><img src="img/cv.jpg" alt="Preview CV Muhammad Fawaz Rangga Putrajaya"></div><a class="btn" href="files/Cv_Muhammad_Fawaz_Rangga_Putrajaya.pdf" download>Download CV</a></div></div></section>
+<section id="contact" class="ct"><p class="k">Contact</p><h2>Get in touch</h2><p class="d">Punya pertanyaan, ide, atau ingin berkolaborasi? Silakan hubungi saya lewat salah satu kontak di bawah.</p>
+<div class="cg"><a class="cc" href="mailto:mfawaz.ranggaug@gmail.com"><div class="ib"><svg viewBox="0 0 512 512" fill="" aria-hidden="true"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg></div><div><small>Email</small><span>mfawaz.ranggaug<wbr>@gmail.com</span></div></a><a class="cc" href="https://wa.me/6287771353146" target="_blank" rel="noopener"><div class="ib"><svg viewBox="0 0 448 512" fill="" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157m-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1s56.2 81.2 56.1 130.5c0 101.8-84.9 184.6-186.6 184.6m101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8s-14.3 18-17.6 21.8c-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7s-12.5-30.1-17.1-41.2c-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2s-9.7 1.4-14.8 6.9c-5.1 5.6-19.4 19-19.4 46.3s19.9 53.7 22.6 57.4c2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4s4.6-24.1 3.2-26.4c-1.3-2.5-5-3.9-10.5-6.6"/></svg></div><div><small>WhatsApp</small><span>Chat via WhatsApp</span></div></a><a class="cc" href="https://www.linkedin.com/in/muhammad-fawaz-rangga-putrajaya-0817b3389/" target="_blank" rel="noopener"><div class="ib"><svg viewBox="0 0 448 512" fill="" aria-hidden="true"><path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8c0-14.3 5.7-27.9 15.8-38S39.6 0 53.8 0s27.9 5.7 38 15.8 15.8 23.8 15.8 38c0 29.7-24.1 54.3-53.8 54.3M447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/></svg></div><div><small>LinkedIn</small><span>Muhammad Fawaz Rangga Putrajaya</span></div></a><a class="cc" href="https://www.instagram.com/fawaz_prtjy/" target="_blank" rel="noopener"><div class="ib"><svg viewBox="0 0 448 512" fill="" aria-hidden="true"><path d="M224.3 141a115 115 0 1 0-.6 230 115 115 0 1 0 .6-230m-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1-.6-149.2m93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1-53.6 0m129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8M399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1"/></svg></div><div><small>Instagram</small><span>@fawaz_prtjy</span></div></a><a class="cc" href="https://github.com/Fazzukun" target="_blank" rel="noopener"><div class="ib"><svg viewBox="0 0 512 512" fill="" aria-hidden="true"><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg></div><div><small>GitHub</small><span>github.com/Fazzukun</span></div></a></div><a class="btn" href="mailto:mfawaz.ranggaug@gmail.com">Send an email</a></section>
 </main>
-
-<!-- PREVIEW CV: dibuka lewat tombol "Lihat CV", tanpa JavaScript -->
-<div id="cv" class="modal">
-  <a class="modal-bg" href="#about" aria-label="Tutup preview CV"></a>
-  <div class="modal-box" role="dialog" aria-label="Preview CV">
-    <div class="modal-bar">
-      <b>CV Muhammad Fawaz Rangga Putrajaya</b>
-      <div>
-        <a class="btn solid" href="files/Cv_Muhammad_Fawaz_Rangga_Putrajaya.pdf" download>Unduh CV</a>
-        <a class="btn" href="#about">Tutup</a>
-      </div>
-    </div>
-    <div class="modal-body"><img src="img/cv.jpg" alt="Preview CV Muhammad Fawaz Rangga Putrajaya"></div>
-  </div>
-</div>
-
 <footer>© 2026 Muhammad Fawaz Rangga Putrajaya. Dibuat dengan HTML dan CSS.</footer>
-</body>
-</html>
+</body></html>
